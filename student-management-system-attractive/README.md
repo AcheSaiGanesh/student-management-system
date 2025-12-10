@@ -13,20 +13,31 @@
 ---
 
 ## 🔍 Project Overview
-This repository contains a simple, well-documented Student Management System (SMS) demo built with a Spring Boot backend and a lightweight frontend. It includes sample APIs for student CRUD operations and ready-to-use placeholders for UI screenshots. The README includes attractive badges and UI preview sections to make your GitHub repo look professional.
+The Student Management System (SMS) is a full-stack application designed to simplify and automate key academic workflows in educational institutions. It provides separate, user-friendly dashboards for Admins and Students, enabling efficient management of student information, attendance, tasks, announcements, and performance-related activities.
 
-> UI screenshots are placeholders — replace `frontend/assets/*.png` with real screenshots exported from your PPT (see `Student Management System-ppt.pdf`). fileciteturn2file0
+The system follows a modular architecture with a Spring Boot backend exposing RESTful APIs and a lightweight HTML/JS frontend (easily upgradable to Angular/React). The backend uses MySQL for secure and structured data storage and supports CRUD operations through a clean service-repository pattern.
 
+Through this platform, admins can add, update, or remove students, publish announcements, assign tasks, and monitor attendance. Students can view their personal dashboard, access tasks and announcements, check attendance, and update their profiles. The solution is built to be scalable, extensible, and deployment-ready, with Docker support included for containerized environments.
+
+This project demonstrates hands-on skills in Java, Spring Boot, REST API design, database integration, and frontend development, while also providing a template suitable for real-world institutional use.
+
+Key Highlights
+
+🔹 Admin & Student role separation
+
+🔹 REST APIs for student management (CRUD)
+
+🔹 MySQL-backed persistent data storage
+
+🔹 Clean, modular backend architecture (Controller → Service → Repository)
+
+🔹 Frontend with UI placeholders for login, dashboard, and attendance pages
+
+🔹 Ready for deployment (Dockerfile included)
+
+🔹 Professional GitHub-ready README with screenshots and badges
 ---
 
-## 🖼 UI PREVIEWS (placeholders)
-<p align="center">
-  <img src="C:\Users\user\OneDrive\Pictures\Screenshots 1" width="700" alt="Login UI">
-</p>
-
-<p align="center">
-  <img src="C:\Users\user\OneDrive\Pictures\Screenshots 1" width="700" alt="Admin Dashboard">
-</p>
 
 
 ---
